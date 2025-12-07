@@ -7,5 +7,4 @@ JOIN Activity e
  AND s.process_id = e.process_id
 WHERE s.activity_type = 'start'
   AND e.activity_type = 'end'
-
 GROUP BY s.machine_id;
